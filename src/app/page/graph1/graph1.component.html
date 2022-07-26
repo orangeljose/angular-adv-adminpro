@@ -1,1 +1,30 @@
-<p>graph1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-dona title="Ventas"
+                  [values]="valores1"
+                  [labels]="etiquetas1"
+        >
+        </app-dona>
+    </div>
+    <div class="col-6">
+        <app-dona title="Compras"
+                  [colors]="colores2"
+        >
+        </app-dona>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <app-dona title="Clientes"
+                  [values]="valores3"
+                  [colors]="colores3"
+        >
+        </app-dona>
+    </div>
+    <div class="col-6">
+        <app-dona [values]="valores4"
+                  [colors]="colores4"
+        >
+        </app-dona>
+    </div>
+</div>
