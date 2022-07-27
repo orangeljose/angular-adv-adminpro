@@ -1,4 +1,3 @@
-import { DeclareFunctionStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { SettingsService } from '../services/settings.service';
 
